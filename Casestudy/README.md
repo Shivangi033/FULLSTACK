@@ -1,5 +1,7 @@
 # Casestudy — Interactive React UI (Vite)
 
+![Demo Image](image.png)
+
 A small React app scaffolded with Vite showcasing interactive UI components: `Ballpit`, `FlowingMenu`, and `Lanyard`. The project includes simple routing for `Home`, `Account`, and `Orders` pages.
 
 ## Features
