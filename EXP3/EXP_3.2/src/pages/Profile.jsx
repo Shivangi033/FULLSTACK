@@ -1,11 +1,27 @@
+import React from 'react';
+import profilePic from './profile.jpeg'; // This imports your image
+
 function Profile() {
   return (
-    <>
-      <img src="src/pages/profile.jpeg" alt="Profile"/>
-      <h2>Data Analyst</h2>
-      <p>Shivangi Kumari</p>
-      <p>A data analyst is a professional who collects, processes, and performs statistical analyses on large datasets to extract meaningful insights and support decision-making within an organization. They utilize various tools and techniques to interpret data trends, create visualizations, and communicate findings to stakeholders, ultimately helping businesses optimize their operations and strategies.</p>
-    </>
-  )
+    <div style={{ padding: '20px' }}>
+      <h2>My Profile</h2>
+      <img 
+        src={profilePic} 
+        alt="Profile" 
+        style={{ 
+          width: '300px',      /* This makes the width smaller */
+          height: 'auto',       /* This keeps the photo from looking stretched */
+          borderRadius: '10px', /* Optional: adds nice rounded corners */
+          display: 'block',
+          marginTop: '10px'
+        }} 
+      />
+      <div style={{ marginTop: '15px' }}>
+        <h3>Data Analyst</h3>
+        <p>Your description text goes here...</p>
+      </div>
+    </div>
+  );
 }
-export default Profile
+
+export default Profile;
