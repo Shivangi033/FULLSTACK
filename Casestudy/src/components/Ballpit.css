@@ -1,0 +1,131 @@
+.main-heading {
+  position: absolute;
+  top: 150px; /* Move it down so it's not under the navbar */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  /* Critical: Lower than the zIndex of 10 we set in App.jsx */
+  z-index: 1; 
+
+  font-family: 'Modak', system-ui; 
+  font-size: 8rem;
+  color: #ff69b4;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 4px 4px 0px #ffffff;
+  pointer-events: none; /* Allows mouse interaction with balls through the text */
+  white-space: nowrap;
+}
+
+/* Ensure the background image is on the root container */
+#root {
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 5px solid #8a2be2; /* Your purple border */
+  
+  /* Apply Modak to everything in the navbar */
+  font-family: 'Modak', system-ui;
+  
+}
+
+/* Make the brand name (Navbar logo) look extra bubbly */
+.navbar-brand {
+  font-family: 'Modak', system-ui;
+  font-size: 1.8rem;
+  color: #8a2be2 !important; /* Matches your purple border */
+  letter-spacing: 1px;
+}
+
+/* Apply it to the links as well */
+.nav-link {
+  font-family: 'Modak', system-ui;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+/* Ballpit.css */
+.navbar-brand {
+  font-family: 'Modak', system-ui; /* Keeps the bubbly font */
+  color: #f763b9 !important; /* Changes HOME to the purple of your border */
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Optional: Add a hover effect */
+.navbar-brand:hover {
+  
+  color: #ffffff !important; /* Changes color when you hover over it */
+
+text-shadow: 
+    0 0 10px #ff69b4, 
+    0 0 20px #ff69b4, 
+    0 0 30px #ff69b4, 
+    0 0 40px #ff69b4;
+    
+  transform: scale(1.1); /* Slightly enlarges the button when touched */
+}
+/* Ballpit.css */
+
+/* Target the text inside your flowing menu items */
+.flowing-menu-item, 
+.options-container button,
+.ice-cream-btn {
+  font-family: 'Luckiest guy', system-ui !important; /* */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* If your options are inside a specific list or div */
+.demo-item-text {
+  font-size: 1.5rem;
+  color: #ff69b4; /* Pink to match your Dream Scoop heading */
+}
+/* Ballpit.css */
+
+.main-heading {
+  font-family: 'Modak', system-ui; /* */
+  transition: all 0.4s ease; /* Smooth transition for the glow */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 1; /* Keeps it behind the bubbles */
+  pointer-events: auto !important;
+  color: var(--text-color) !important;
+}
+
+/* The Glow Effect on Touch/Hover */
+.main-heading:hover {
+  color: #ffffff !important; /* Text turns white to highlight the glow */
+  
+  /* Pink glow layers to match your brand colors */
+  text-shadow: 
+    0 0 10px #ff69b4, 
+    0 0 20px #ffadd6, 
+    0 0 40px #753857, 
+    0 0 60px #fc8bc7;
+    
+  transform: translate(-50%, -50%) scale(1.05); /* Keeps it centered while slightly enlarging it */
+}
+/* Light Mode (Default) */
+.light-mode {
+  background-color: #ffffff;
+  --text-color: #ff69b4; /* Pink */
+  --nav-border: #8a2be2; /* Purple */
+}
+
+/* Dark Mode Colors */
+.dark-mode {
+  background-color: #1a1a1a;
+  --text-color: #ff85c0; /* Lighter pink for contrast */
+  --nav-border: #bb86fc; /* Lighter purple for contrast */
+}
