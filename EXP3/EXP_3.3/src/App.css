@@ -9,3 +9,9 @@ header{
     color: white;
     padding: 0 20px;
 }
+.profile-photo {
+  max-width: 400px;  /* Adjust this value to your liking */
+  height: auto;      /* Keeps the aspect ratio perfect */
+  display: block;
+  margin-top: 20px;
+}

@@ -1,16 +1,60 @@
-# React + Vite
+# Multi-Page React App with Button Navigation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a React single-page application (SPA) that uses React Router to create a multi-page experience with button-based navigation. The app features a Profile page and a Dashboard page with seamless navigation between them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- ⚡ Built with React + Vite for fast development
+- 🧭 React Router DOM for client-side routing
+- 🎨 Custom styled components
+- 🔘 Button-based navigation between pages
+- 📱 Responsive design
+- 👤 Profile page with personal information
+- 📊 Dashboard page with analytics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Demo
 
-## Expanding the ESLint configuration
+![Application Demo](image.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```
+multiSPAbutton/
+├── src/
+│   ├── components/
+│   │   └── Header.jsx
+│   ├── pages/
+│   │   ├── Profile.jsx
+│   │   └── Dashboard.jsx
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+└── package.json
+```
+
+## Installation
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
+
+```bash
+npm run dev
+```
+
+3. Open your browser and navigate to `http://localhost:5173`
+
+## Technologies Used
+
+- React 18
+- React Router DOM
+- Vite
+- CSS3
