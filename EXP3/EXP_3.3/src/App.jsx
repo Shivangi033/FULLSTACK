@@ -1,30 +1,22 @@
-import { Routes, Route, Link } from 'react-router-dom'
-import Profile from './pages/Profile'
-import Dashboard from './pages/Dashboard'
-import './App.css'
 
+import { Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
+import { lazy,Suspense } from "react";
+const Dash = lazy(() => import("./pages/Dashboard"));
+import Profile from "./pages/Profile";
+import Dashboard from "./pages/Dashboard";
 
-
-function App() {
+export default function App() {
   return (
-    <div>
-      <header>
-        <Link to="/">Profile</Link>
-      </header>
-      <h1>React Router – Vite Example</h1>
-
-      <nav>
-        <Link to="/"><button>Profile</button></Link> |{' '}
-        <Link to="/dashboard"><button>Dashboard</button></Link> |{' '}
-      </nav>
-
+    <>
+      <Navbar />
+      <Suspense fallback={<div className="loading">Loading...</div>}>
       <Routes>
         <Route path="/" element={<Profile />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dash />} />
       </Routes>
-    </div>
-  )
+      </Suspense>
+    </>
+  );
 }
-
-export default App
