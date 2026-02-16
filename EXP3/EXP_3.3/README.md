@@ -18,7 +18,7 @@ This is a React single-page application (SPA) that implements a multi-page exper
 
 ![Application Demo](image.png)
 ![Application Demo](image1.png)
-![Application Demo](image2.png)
+
 
 
 ## Project Structure

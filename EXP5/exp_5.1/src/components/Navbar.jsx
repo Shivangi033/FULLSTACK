@@ -7,25 +7,28 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar">
-      {/* ✅ Logo + Title (click to Profile) */}
+    <nav className="navbar-modern">
+      {/* Logo + Title */}
       <Link to="/" className="logo-link">
-        <div className="brand">
-          <img src={chopperLogo} alt="Logo" className="brand-logo" />
-          <h2 className="logo">Experiment 5.1</h2>
+        <div className="brand-modern">
+          <img src={chopperLogo} alt="Logo" className="brand-logo-modern" />
+          <h2 className="logo-text">Experiment 5.1</h2>
         </div>
       </Link>
 
-      <div className="nav-links">
+      {/* Buttons */}
+      <div className="nav-links-modern">
         <button
-          className={`nav-btn ${location.pathname === "/" ? "active" : ""}`}
+          className={`nav-btn-modern ${
+            location.pathname === "/" ? "active" : ""
+          }`}
           onClick={() => navigate("/")}
         >
           Profile
         </button>
 
         <button
-          className={`nav-btn ${
+          className={`nav-btn-modern ${
             location.pathname === "/dashboard" ? "active" : ""
           }`}
           onClick={() => navigate("/dashboard")}

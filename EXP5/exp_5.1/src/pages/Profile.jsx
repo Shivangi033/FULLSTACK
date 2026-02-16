@@ -3,24 +3,28 @@ import myPhoto from "../profile.jpeg";
 
 export default function Profile() {
   return (
-    <div className="container">
-      <h1 className="title">👤 Profile Page</h1>
-
-      <div className="card profile-card">
-        {/* ✅ Photo on top */}
-        <img src={myPhoto} alt="My Photo" className="profile-img-square" />
-
-        {/* ✅ Text below */}
-        <div className="profile-content">
+    <div className="profile-wrapper">
+      <div className="profile-card-modern">
+        {/* Left Section */}
+        <div className="profile-left">
+          <img src={myPhoto} alt="Shivangi Kumari" className="profile-img-round" />
           <h2 className="name">Shivangi Kumari</h2>
+          <p className="role">B.E. CSE (AI & ML)</p>
+        </div>
 
+        {/* Right Section */}
+        <div className="profile-right">
+          <h3 className="section-title">About Me</h3>
           <p className="text">
-           B.E. Computer Science student (AI & ML specialization) with a strong interest in Web Development and practical project building. Skilled in HTML, CSS, JavaScript and familiar with modern UI design and responsive layouts. Passionate about creating clean, user-friendly interfaces and continuously improving through hands-on experiments and coding practice. Highly motivated learner with a disciplined routine and goal-oriented mindset.
+            Computer Science student specializing in AI & ML with strong interest
+            in Web Development and practical project building. Skilled in HTML,
+            CSS, and JavaScript with a passion for clean UI, responsive layouts,
+            and continuous learning through hands-on coding.
           </p>
 
           <h3 className="section-title">Internship</h3>
           <ul className="list">
-            <li>Web Development Internship (Frontend / React)</li>
+            <li>Frontend Web Development Internship (React)</li>
           </ul>
 
           <h3 className="section-title">Projects</h3>

@@ -1,6 +1,6 @@
 ![Application Demo](image1.png)
 ![Application Demo](image2.png)
-![Application Demo](image.png)
+![Application Demo](image3.png)
 
 # React Lazy Loading SPA
 
