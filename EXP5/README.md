@@ -15,7 +15,6 @@ This is a React single-page application (SPA) that implements a multi-page exper
 - 🔗 Active link highlighting in navbar
 
 ## Demo
-
 ![Application Demo](image.png)
 ![Application Demo](image1.png)
 ![Application Demo](image2.png)
