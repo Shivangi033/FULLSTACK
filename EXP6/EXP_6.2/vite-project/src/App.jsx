@@ -6,8 +6,7 @@ function App() {
   const [password, setPassword] = useState("");
 
   const emailPattern =
-    /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|in|[a-zA-Z]{2,})$/;
-
+  /^[a-zA-Z][a-zA-Z0-9_]*@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/;
   const rules = {
     capital: /^[A-Z]/.test(password),
     number: /\d/.test(password),

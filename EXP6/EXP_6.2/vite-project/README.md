@@ -1,12 +1,54 @@
-# React + Vite
+# Client-Side Form Validation (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Login Page with Client-Side Form Validation** built using **React + Vite**.  
+It validates user input in real-time for **Email ID** and **Password** based on given rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### ✅ Email Validation
+- Must contain exactly one `@`
+- Must have a valid domain (example: `.com`, `.in`, `.org`)
+- No invalid formats like:
+  - `name..@gmail.com`
+  - `name@@gmail.com`
+  - `name@gmail`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🔐 Password Validation (Live)
+Password must:
+- Start with a **capital letter**
+- Contain **at least one number**
+- Contain **at least one special character**
+- Have **minimum 5 characters**
+
+Each rule turns **green** as soon as it is satisfied while typing.
+
+---
+
+## 🖥️ Tech Stack
+- React (with Hooks)
+- Vite
+- CSS (custom styling)
+- JavaScript (Regex validation)
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Login Page UI
+![Login Page](image1.png)
+
+### 🔹 Live Validation Example
+![Live Validation](image2.png)
+
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
+```bash
+git clone <your-repo-link>

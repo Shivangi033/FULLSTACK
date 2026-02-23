@@ -1,12 +1,33 @@
-# React + Vite
+# Experiment 6.1 – Student Registration Form (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Brief Description
+This experiment demonstrates the implementation of a **controlled form in React**.  
+The form collects user details such as name, date of birth, gender, address, state, and skills.  
+All inputs are managed using React `useState` and displayed using an alert on submission.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Files
+- README.md  
+- src/App.jsx  
+- src/App.css  
+- image1.png  
+- image2.png  
+- package.json  
+- (other React project files)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼 Images
+![Image 1](./image1.png)  
+![Image 2](./image2.png)
+
+---
+
+## ▶ How to Run
+
+1. Install Node.js (if not already installed).
+2. Open terminal in project folder.
+3. Install dependencies:
+   ```bash
+   npm install
