@@ -1,5 +1,4 @@
-<img width="1902" height="932" alt="image" src="https://github.com/user-attachments/assets/180cc2b7-b36a-4b8b-aa7f-edd02c6dd193" />
-<img width="1895" height="923" alt="image" src="https://github.com/user-attachments/assets/c125c6b2-3b36-4dfa-9484-79d5aac95b6f" />
+
 
 
 # Context Lab
@@ -63,10 +62,10 @@ src/
 └── App.css                # Application styles
 ```
 ## demo
-![Application Demo](Screenshot(359).png)
-![Application Demo](Screenshot(360).png)
-![Application Demo](Screenshot(361).png)
-![Application Demo](Screenshot(362).png)
+![Application Demo](image1.png)
+![Application Demo](image2.png)
+![Application Demo](image3.png)
+![Application Demo](image4.png)
 
 
 ## Learn More
