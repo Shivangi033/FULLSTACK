@@ -1,0 +1,73 @@
+/* Full screen center */
+body {
+  background: linear-gradient(135deg, #6a4c93, #9d4edd);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.container {
+  width: 420px;              /* make box larger */
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  animation: popIn 0.6s ease-in-out;
+}
+
+/* Animation */
+@keyframes popIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #7b2cbf;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Button colors */
+button:nth-child(3) {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+button:nth-child(4) {
+  background-color: #d62828;
+  color: white;
+}
+
+button:nth-child(5) {
+  background-color: #5a189a;
+  color: white;
+}
