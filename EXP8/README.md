@@ -78,3 +78,8 @@ The app runs on:
 
 ![Screenshot 4](./try/image4.png)
 ![Screenshot 5](./try/image5.png)
+
+### Screenshot 6 (image6)
+
+![Screenshot 6](./try/image6.png)
+![Screenshot 7](./try/image7.png)
