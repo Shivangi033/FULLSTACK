@@ -63,23 +63,18 @@ The app runs on:
 
 ## Screenshots
 
-### Screenshot 1 (image1)
+### Screenshot 1 (get)
 
 ![Screenshot 1](./try/image1.png)
 
-### Screenshot 2 (image2)
+### Screenshot 2 (post)
 
 ![Screenshot 2](./try/image2.png)
-### Screenshot 3 (image3)
+### Screenshot 3 (put)
 
 ![Screenshot 3](./try/image3.png)
 
-### Screenshot 4 (image4)
+### Screenshot 4 (delete)
 
 ![Screenshot 4](./try/image4.png)
 ![Screenshot 5](./try/image5.png)
-
-### Screenshot 6 (image6)
-
-![Screenshot 6](./try/image6.png)
-![Screenshot 7](./try/image7.png)
