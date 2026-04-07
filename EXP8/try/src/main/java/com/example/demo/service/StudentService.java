@@ -30,7 +30,8 @@ public class StudentService {
         return repository.findById(id)
                 .map(student -> {
                     student.setName(updatedStudent.getName());
-                    student.setCourse(updatedStudent.getCourse());
+                    student.setEmail(updatedStudent.getEmail());
+                    student.setAge(updatedStudent.getAge());
                     return repository.save(student);
                 })
                 .orElse(null);

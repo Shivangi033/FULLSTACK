@@ -10,7 +10,8 @@ public class Student {
     private int id;
 
     private String name;
-    private String course;
+    private String email;
+    private int age;
 
     public Student() {}
 
@@ -30,11 +31,19 @@ public class Student {
         this.name = name;
     }
 
-    public String getCourse() {
-        return course;
+    public String getEmail() {
+        return email;
     }
 
-    public void setCourse(String course) {
-        this.course = course;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
